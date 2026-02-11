@@ -1,0 +1,264 @@
+{
+  "main": {
+    "id": "c9118e425bda09c5",
+    "type": "split",
+    "children": [
+      {
+        "id": "3bee04e7e60345e5",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3285335b707c6c58",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "notes/凸优化/overview.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "overview"
+            }
+          },
+          {
+            "id": "a291eee1fda7382a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "notes/凸优化/introduction.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "introduction"
+            }
+          },
+          {
+            "id": "62d921eb19494985",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "notes/凸优化/overview.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "overview"
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "43ca4579d5f33873",
+    "type": "split",
+    "children": [
+      {
+        "id": "4a8b6f28b54bc006",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "aeb850b2caffc93a",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "abf654cdebb4296f",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "54f6db46c1ee7d26",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 238.50446319580078
+  },
+  "right": {
+    "id": "4ac712903161961d",
+    "type": "split",
+    "children": [
+      {
+        "id": "05d89f2ea76c2d39",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0bc001e620fac110",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "notes/凸优化/overview.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for overview"
+            }
+          },
+          {
+            "id": "0a4981f5779f480e",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "notes/凸优化/overview.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from overview"
+            }
+          },
+          {
+            "id": "08d1724a130ed3c2",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "3d86c9227ae71063",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "9c8f155810ae7783",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "notes/凸优化/overview.md",
+                "followCursor": false,
+                "showSearch": true,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of overview"
+            }
+          }
+        ],
+        "currentTab": 4
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "62d921eb19494985",
+  "lastOpenFiles": [
+    "notes/计算导论/计算导论.pdf",
+    "notes/计算导论/计算导论.md",
+    "notes/计算导论/index.md",
+    "notes/计算导论/计算导论.docx",
+    "notes/计算导论",
+    "notes/新建文件夹",
+    "node_modules/boolbase/index.js",
+    "node_modules/mhchemparser/package.json",
+    "notes/凸优化/introduction.md",
+    "notes/凸优化/overview.md",
+    "notes/凸优化/math.md",
+    "images/Pasted image 20260116105827.png",
+    "images/Pasted image 20260116105816.png",
+    "images/Pasted image 20260116105753.png",
+    "images/Pasted image 20260116105732.png",
+    "images/Pasted image 20260116105717.png",
+    "images/Pasted image 20260116105655.png",
+    "images/Pasted image 20260116105640.png",
+    "images/Pasted image 20260116105551.png",
+    "images/Pasted image 20260116105520.png",
+    "images/Pasted image 20260116105223.png",
+    "index.md",
+    "notes/index.md",
+    "images",
+    "node_modules/slick/parser.js",
+    "node_modules/slick/package.json",
+    "node_modules/mensch/lib/parser.js",
+    "node_modules/mensch/lib/stringify.js",
+    "markdown-examples.md",
+    "api-examples.md",
+    "node_modules/boolbase/README.md",
+    "node_modules/speech-rule-engine/node_modules/commander/Readme.md",
+    "node_modules/speech-rule-engine/bin/README.md",
+    "node_modules/speech-rule-engine/README.md",
+    "node_modules/dom-serializer/node_modules/entities/readme.md",
+    "node_modules/dom-serializer/README.md",
+    "node_modules/htmlparser2/node_modules/entities/readme.md",
+    "node_modules/htmlparser2/README.md",
+    "node_modules/@xmldom/xmldom/readme.md",
+    "node_modules/@xmldom/xmldom/SECURITY.md",
+    "node_modules/@xmldom/xmldom/CHANGELOG.md",
+    "node_modules/web-resource-inliner/node_modules/entities/readme.md",
+    "node_modules/web-resource-inliner/node_modules/domhandler/readme.md",
+    "node_modules/web-resource-inliner/node_modules/htmlparser2/README.md",
+    "node_modules/web-resource-inliner/README.md",
+    "node_modules/markdown-it-mathjax3/README.md"
+  ]
+}

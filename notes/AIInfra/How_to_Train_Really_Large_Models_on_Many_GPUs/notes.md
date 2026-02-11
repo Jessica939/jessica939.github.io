@@ -1,0 +1,58 @@
+博客确实是学习 AI Infra 最“短平快”的方式，因为很多工程上的 trick（技巧）和坑，论文里不会写，书里来不及写，只有工程师会在博客里吐槽或总结。
+
+这里为你精选了 **5 个最值得关注的博客/作者**，以及几篇**“入坑必读”的具体文章**。这些内容也是许多大厂 Infra 面试题的灵感来源。
+
+---
+
+### 1. The "Visualizer" —— 这里的图解最易懂
+**博客：Jay Alammar**
+*   **风格：** 上帝视角的彩色图解。如果你对 Transformer、BERT、LoRA 的内部数据流向感到模糊，看这里。
+*   **Infra 实习生必读文章：**
+    *   **[The Illustrated Transformer](https://jalammar.github.io/illustrated-transformer/)**：这是全网公认最好的 Transformer 入门文。作为 Infra 人，你不用关注它是怎么翻译句子的，但你要关注**数据在里面是怎么流动的（矩阵形状变化）**。
+    *   **[The Illustrated GPT-2](https://jalammar.github.io/illustrated-gpt2/)**：理解 Decoder-only 架构的基础。
+
+### 2. The "Surveyor" —— 这里的综述最全
+**博客：Lil'Log (Lilian Weng, OpenAI 研究员)**
+*   **风格：** 学术综述风，但逻辑极其清晰。她会把一个领域（如分布式训练）的所有核心论文串起来讲。
+*   **Infra 实习生必读文章：**
+    *   **[Large Transformer Model Inference Optimization](https://lilianweng.github.io/posts/2023-01-10-inference-optimization/)**：极佳的推理优化入门，涵盖了 FlashAttention, PagedAttention, Quantization 等核心概念。
+    *   **[How to Train Really Large Models on Many GPUs?](https://lilianweng.github.io/posts/2021-09-25-train-large/)**：这是 **AI Infra 的圣经**。它详细解释了 Data Parallel, Tensor Parallel (Megatron), Pipeline Parallel, ZeRO (DeepSpeed)。**这篇建议打印下来反复读。**
+
+### 3. The "Hardware Guy" —— 这里的 GPU 知识最硬核
+**博客：Tim Dettmers**
+*   **风格：** 硬核硬件评测与低比特量化（LLM.int8() 的作者）。
+*   **为什么看：** AI Infra 离不开硬件。你需要知道显存带宽、INT8 vs FP16 的区别。
+*   **Infra 实习生必读文章：**
+    *   **[Which GPU(s) to Get for Deep Learning](https://timdettmers.com/2023/01/30/which-gpus-for-deep-learning/)**：虽然是讲买 GPU 的，但里面详细解释了 Tensor Core, Memory Bandwidth 对性能的影响，非常有助于建立硬件直觉。
+
+### 4. The "Performance Hacker" —— 这里的 PyTorch 优化最深入
+**博客：Horace He (PyTorch Core Team)**
+*   **风格：** 代码级硬核优化。教你如何把程序跑得飞快。
+*   **Infra 实习生必读文章：**
+    *   **[Making Deep Learning Go Brrrr From First Principles](https://horace.io/brrr_intro.html)**：**强烈推荐！** 这是一篇教你怎么做 Performance Tuning（性能调优）的神文。它解释了什么是 Bandwidth Bound（带宽瓶颈） vs Compute Bound（计算瓶颈），以及如何通过 Trace 来分析。
+
+### 5. The "Practitioners" —— 这里的实战经验最多
+**博客：Hugging Face Blog & Engineering**
+*   **风格：** 极其落地的工程实践。
+*   **Infra 实习生必读文章：**
+    *   **[Fitting AI Models in Your GPU Memory](https://huggingface.co/docs/transformers/perf_train_gpu_one)**：这其实是文档，但写得像博客。详细解释了 Gradient Checkpointing, Accumulation, Mixed Precision 如何节省显存。
+    *   **[Memory-efficient NVI-LLM Serving](https://huggingface.co/blog/optimize-llm)**：关于推理优化的实战。
+
+---
+
+### 🎁 特别推荐：中文优质专栏 (便于快速吸收)
+
+如果你觉得看全英文太累，这几个中文专栏在 Infra 圈内认可度很高：
+
+1.  **知乎专栏 - [OneFlow 一流科技](https://www.zhihu.com/org/yi-liu-ke-ji-26)**
+    *   虽然他们做的是 OneFlow 框架，但他们的技术博客质量极高。特别是关于 **"自动微分原理"**、**"CUDA 编程入门"** 和 **"大模型分布式训练源码解读"** 的系列文章，是中文圈最好的资料之一。
+
+2.  **知乎用户 - [Basic归藏](https://www.zhihu.com/people/basicv8)**
+    *   他在 AI 编译器（TVM, MLIR）和底层部署方向写了很多深入浅出的文章，适合进阶。
+
+3.  **公众号/知乎 - [吃果冻不吐果冻皮](https://www.zhihu.com/people/lucas-72-35)**
+    *   对于 **Megatron-LM** 源码的解读非常详细，如果你之后工作中要改 Megatron 的代码，他的文章能救命。
+
+### 💡 学习建议
+**不要把博客当小说看，要当“说明书”看。**
+最好的阅读方式是：你的代码跑崩了，或者跑得太慢了，带着**具体的问题**去搜这些博客里的关键词（比如 "PyTorch memory profiling", "ZeRO stage 3 explained"）。这样印象最深。
