@@ -31,7 +31,8 @@
 - 每个barch需要前向和后向传播，只传播前向激活值和后向梯度
 - **GPipe**([Huang et al. 2019](https://arxiv.org/abs/1811.06965))
   - 每个microbatch的梯度在最后被同步聚合，空当仍然存在，但很小
-  - m个microbatch和d个划分，那么时间为$$1-\frac{2md}{(2m+2(d-1))d}=\frac{d-1}{m+d-1}$$
+  - m个microbatch和d个划分，那么时间为
+  $$1-\frac{2md}{(2m+2(d-1))d}=\frac{d-1}{m+d-1}$$
 ![alt text](image-2.png)
 - **PipeDream** ([Narayanan et al. 2019](https://people.eecs.berkeley.edu/~matei/papers/2019/sosp_pipedream.pdf))
   - 预估：先预估显存和执行时间，使用动态规划来决定每个GPU所执行的层
