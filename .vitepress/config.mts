@@ -18,7 +18,8 @@ export default defineConfig({
         {
           text: 'AI Infra',
           items: [
-            { text: 'How to Train Really Large Models', link: '/notes/AIInfra/How_to_Train_Really_Large_Models_on_Many_GPUs/reading notes' }
+            { text: 'How to Train Really Large Models', link: '/notes/AIInfra/How_to_Train_Really_Large_Models_on_Many_GPUs/reading notes' },
+            {text:'The Illustrated Transformer', link:'notes/AIInfra/The_Illustrated_Transformer/note.md'}
           ]
         }
       ]
