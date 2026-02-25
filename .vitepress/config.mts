@@ -4,13 +4,14 @@ import mathjax3 from 'markdown-it-mathjax3'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: "Jessica's homepage",
-  description: "learning notes",
+  description: "welcome",
   base: '/', 
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
-      { text: '我的笔记', link: '/notes/' }
+      { text: '我的笔记', link: '/notes/' },
+      { text: 'Some Ideas', link: '/ideas/' }
     ],
 
     sidebar: {
