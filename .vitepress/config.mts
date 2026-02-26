@@ -16,7 +16,7 @@ export default defineConfig({
           { text: '🏠 home', link: '/' },
           { text: '📖 notes', link: '/notes/' },
           { text: '💡 ideas', link: '/ideas/' },
-          { text: '🙋 about', link: '/about' },
+          { text: '🙋 aboutme', link: '/about' },
         ],
         socialLinks: [
           { icon: 'github', link: 'https://github.com/Jessica939' }
@@ -36,7 +36,7 @@ export default defineConfig({
           { text: '🏠 home', link: '/en/' },
           { text: '📖 notes', link: '/en/notes/' },
           { text: '💡 ideas', link: '/en/ideas/' },
-          { text: '🙋 about', link: '/en/about' },
+          { text: '🙋 aboutme', link: '/en/about' },
           { text: '🐙 GitHub', link: 'https://github.com/Jessica939' }
         ],
         socialLinks: [
