@@ -1,7 +1,7 @@
 # From MHA to MLA
 MLA在论文[DeepSeek-V2: A Strong, Economical, and Efficient
 Mixture-of-Experts Language Model](https://arxiv.org/pdf/2405.04434)中被首次提出
-MHA可以参考我之前写的[多头注意力（MHA）](..\The_Illustrated_Transformer\note.md#多头注意力mha)
+MHA可以参考我之前写的[多头注意力（MHA）](../The_Illustrated_Transformer/note.md#多头注意力mha)
 
 ## MHA 与 KV Cache 的物理灾难
 在大模型推理生成时，是一个词一个词生成的（自回归）。
@@ -74,7 +74,7 @@ $$ \text{Score} = (c_t^Q \cdot W_{QK}) \cdot c_t^{KV} $$
 
 
 ## 位置编码RoPE该怎么办？
-联系[使用位置编码来代表序列顺序](..\The_Illustrated_Transformer\note.md#使用位置编码来代表序列顺序)
+联系[使用位置编码来代表序列顺序](../The_Illustrated_Transformer/note.md#使用位置编码来代表序列顺序)
 *   **RoPE 的本质**：它是一种特殊的旋转矩阵。它必须在 $Q$ 和 $K$ 生成之后，逐个元素地乘上去，用来表示词与词之间的距离。
 *   **MLA 的噩梦**：如果我们把 $K$ 压缩成了隐向量 $c_t^{KV}$，并且用结合律把 $K$ 给吸收了，那 RoPE 这个旋转矩阵往哪里乘？如果往 $c_t^{KV}$ 上乘，数学上是不等价的；如果不乘，模型就丧失了位置信息，变成瞎子。
 
