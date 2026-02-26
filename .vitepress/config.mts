@@ -6,6 +6,7 @@ export default defineConfig({
   title: "Jessica's Homepage",
   description: "A space for ideas and notes",
   base: '/',
+  lastUpdated: true,
 
   locales: {
     root: {
@@ -24,6 +25,9 @@ export default defineConfig({
         outline: {
           level: [2, 4],
           label: '页面导航'
+        },
+        lastUpdated: {
+          text: '最后更新于'
         }
       }
     },
@@ -45,6 +49,9 @@ export default defineConfig({
         outline: {
           level: [2, 4],
           label: 'On this page'
+        },
+        lastUpdated: {
+          text: 'Last updated'
         }
       }
     }
