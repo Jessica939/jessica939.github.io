@@ -34,7 +34,7 @@ Transformer的特征就是每个单词都独立流向编码器，他们之间的
 - 第二步是计算一个分数。对于一个词，我们要对这句话里的其他词计算出关于这个词的分数，这能告诉我们在编码这个词的时候，应该关注多少其它的词。这个分数是由Query向量和Key向量点积得到的。比如我们在计算位置1的分数，第一个分数就是Q1·K1，第二个分数是Q1·K2。公式就是$QK^T$
 ![alt text](image-10.png)
 - 第三步和第四步是把计算出来的分数除以8（8是K向量大小的平方根，在论文中使用64。这个数值可以让梯度更稳定，当然这个数字可以改变，而8是默认值）。然后结果会传入一个softmax操作，这可以正态化分数，让它们都是正数并且相加等于1，公式就是$\text{Softmax}\left(\frac{...}{\sqrt{d_k}}\right)$
-  关于softmax的细节，可以参阅[A Brief Introduction of Softmax and Flash Attention](..\Softmax\note.md)
+  关于softmax的细节，可以参阅[A Brief Introduction of Softmax and Flash Attention](../Softmax/note.md)
 ![alt text](image-11.png)
 算出来的softmax分数表示了这个词和其他词的关联程度，当然它和自己的关联程度是最高的，然而有时关注其它词也是有用的。
 - 第五步是把Value向量乘以软阈值（为了之后求和）。动机是保留我们关注的Value向量，并把无用的单词扔掉（通过乘以一个很小的数）。第六步是把加权Value向量加起来，这就得到了这一层编码器对于这个词的输出。这就是公式里面的$\times V$
