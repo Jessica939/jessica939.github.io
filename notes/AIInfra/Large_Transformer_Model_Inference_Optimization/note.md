@@ -1,4 +1,5 @@
 # Large Transformer Model Inference Optimization
+这篇是lilian weng的博客阅读笔记https://lilianweng.github.io/posts/2023-01-10-inference-optimization/.
 - 对于大模型推理，为什么如此困难？主要有两个原因
   - 巨大的内存占用：模型参数和中间状态要存在显存里
     - KV cache在decode阶段要存在显存里。如果batch size是512，内容长度是2048，那么KV cache就有3TB，这是三倍的模型大小！

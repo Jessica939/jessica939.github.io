@@ -3,47 +3,59 @@ import mathjax3 from 'markdown-it-mathjax3'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "Jessica's homepage",
-  description: "welcome",
-  base: '/', 
-  themeConfig: {
-    // https://vitepress.dev/reference/default-theme-config
-    nav: [
-      { text: 'Home', link: '/' },
-      { text: '我的笔记', link: '/notes/' },
-      { text: 'Some Ideas', link: '/ideas/' }
-    ],
-
-    sidebar: {
-      '/notes/AIInfra': [
-        {
-          text: 'AI Infra',
-          items: [
-            { text: 'How to Train Really Large Models', link: '/notes/AIInfra/How_to_Train_Really_Large_Models_on_Many_GPUs/reading notes'},
-            { text:'Large Transformer Model Inference Optimization', link:'notes/AIInfra/Large_Transformer_Model_Inference_Optimization/note.md'},
-            { text:'The Illustrated Transformer', link:'/notes/AIInfra/The_Illustrated_Transformer/note.md'},
-            { text:'A Brief Introduction of Softmax and Flash Attention', link:'notes/AIInfra/Softmax/note.md'},
-            { text:'From MHA to MLA', link:'notes/AIInfra/MHA_and_MLA/note.md'},
-          ]
+  title: "Jessica's Homepage",
+  description: "A space for ideas and notes",
+  base: '/',
+  
+  locales: {
+    root: {
+      label: '简体中文',
+      lang: 'zh-CN',
+      themeConfig: {
+        nav: [
+          { text: '🏠 home', link: '/' },
+          { text: '📖 notes', link: '/notes/' },
+          { text: '💡 ideas', link: '/ideas/' },
+          { text: '🐙 GitHub', link: 'https://github.com/Jessica939' }
+        ],
+        socialLinks: [
+          { icon: 'github', link: 'https://github.com/Jessica939' }
+        ],
+        outline: {
+          level: [2, 4],
+          label: '页面导航'
         }
-      ]
+      }
     },
-
-    socialLinks: [
-      { icon: 'github', link: 'https://github.com/Jessica939' }
-    ],
-    outline: {
-      level: [2, 4], // 意思是显示 h2 和 h3 级别的标题
-      label: '页面导航' // 右侧栏的标题文本，默认是 "On this page"
-    },
-  },
-  markdown: {
-    config: (md) => {
-      md.use(mathjax3) // 启用 MathJax 支持
+    en: {
+      label: 'English',
+      lang: 'en-US',
+      link: '/en/',
+      themeConfig: {
+        nav: [
+          { text: '🏠 home', link: '/en/' },
+          { text: '📖 notes', link: '/en/notes/' },
+          { text: '💡 ideas', link: '/en/ideas/' },
+          { text: '🐙 GitHub', link: 'https://github.com/Jessica939' }
+        ],
+        socialLinks: [
+          { icon: 'github', link: 'https://github.com/Jessica939' }
+        ],
+        outline: {
+          level: [2, 4],
+          label: 'On this page'
+        }
+      }
     }
   },
+  
+  markdown: {
+    config: (md) => {
+      md.use(mathjax3)
+    }
+  },
+  
   head: [
     ['link', { rel: 'icon', type: 'image/png', href: '/logo.png' }]
-  ],
-  
+  ]
 })

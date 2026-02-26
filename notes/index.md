@@ -2,6 +2,16 @@
 
 这里记录了我的学习笔记和想法。
 
-## 笔记专题
+<div class="card-grid">
 
-- [AIInfra](/notes/AIInfra/How_to_Train_Really_Large_Models_on_Many_GPUs/reading%20notes)
+<a href="/notes/AIInfra/" class="card">
+<div class="card-title">🚀 AI基础设施</div>
+<div class="card-meta">大规模模型训练与推理优化</div>
+</a>
+
+<a href="/notes/Transformer/" class="card">
+<div class="card-title">🔮 Transformer基础</div>
+<div class="card-meta">Transformer架构、注意力机制及数学原理</div>
+</a>
+
+</div>

@@ -1,4 +1,5 @@
 # How to Train Really Large Models on Many GPUs?
+这篇是lilian weng的博客阅读笔记https://lilianweng.github.io/posts/2021-09-25-train-large/
 ## Overview
 ![alt text](image-10.png)
 上方每个颜色代表一个独特的权重矩阵，下方每个颜色代表一个独特的token集
