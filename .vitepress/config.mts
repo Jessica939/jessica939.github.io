@@ -20,9 +20,10 @@ export default defineConfig({
           text: 'AI Infra',
           items: [
             { text: 'How to Train Really Large Models', link: '/notes/AIInfra/How_to_Train_Really_Large_Models_on_Many_GPUs/reading notes'},
-            { text:'The Illustrated Transformer', link:'/notes/AIInfra/The_Illustrated_Transformer/note.md'},
             { text:'Large Transformer Model Inference Optimization', link:'notes/AIInfra/Large_Transformer_Model_Inference_Optimization/note.md'},
-            { text:'A Brief Introduction of Softmax and Flash Attention', link:'notes/AIInfra/Softmax/note.md'}
+            { text:'The Illustrated Transformer', link:'/notes/AIInfra/The_Illustrated_Transformer/note.md'},
+            { text:'A Brief Introduction of Softmax and Flash Attention', link:'notes/AIInfra/Softmax/note.md'},
+            { text:'From MHA to MLA', link:'notes/AIInfra/MHA_and_MLA/note.md'},
           ]
         }
       ]
