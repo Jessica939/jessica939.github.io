@@ -1,7 +1,9 @@
 # From MHA to MLA
-联系[多头注意力（MHA）](..\The_Illustrated_Transformer\note.md#多头注意力mha)
-## MHA 与 KV Cache 的物理灾难
+MLA在论文[DeepSeek-V2: A Strong, Economical, and Efficient
+Mixture-of-Experts Language Model](https://arxiv.org/pdf/2405.04434)中被首次提出
+MHA可以参考我之前写的[多头注意力（MHA）](..\The_Illustrated_Transformer\note.md#多头注意力mha)
 
+## MHA 与 KV Cache 的物理灾难
 在大模型推理生成时，是一个词一个词生成的（自回归）。
 假设我们已经生成了 1000 个词，现在要生成第 1001 个词。
 *   **数学逻辑**：第 1001 个词的 $Q_{1001}$，必须去和前面 1000 个词的 $K_{1...1000}$ 做点积，然后再去乘以 $V_{1...1000}$。
