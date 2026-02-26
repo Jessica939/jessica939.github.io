@@ -42,5 +42,8 @@ export default defineConfig({
       md.use(mathjax3) // 启用 MathJax 支持
     }
   },
+  head: [
+    ['link', { rel: 'icon', type: 'image/png', href: '/logo.png' }]
+  ],
   
 })
