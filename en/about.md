@@ -1,5 +1,6 @@
 ---
 title: About Me
+lastUpdated: false
 ---
 
 <div class="profile-card">

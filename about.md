@@ -1,5 +1,6 @@
 ---
 title: 关于我
+lastUpdated: false
 ---
 
 <div class="profile-card">
