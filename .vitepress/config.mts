@@ -6,7 +6,7 @@ export default defineConfig({
   title: "Jessica's Homepage",
   description: "A space for ideas and notes",
   base: '/',
-  
+
   locales: {
     root: {
       label: '简体中文',
@@ -16,7 +16,7 @@ export default defineConfig({
           { text: '🏠 home', link: '/' },
           { text: '📖 notes', link: '/notes/' },
           { text: '💡 ideas', link: '/ideas/' },
-          { text: '🐙 GitHub', link: 'https://github.com/Jessica939' }
+          { text: '🙋 about', link: '/about' },
         ],
         socialLinks: [
           { icon: 'github', link: 'https://github.com/Jessica939' }
@@ -36,6 +36,7 @@ export default defineConfig({
           { text: '🏠 home', link: '/en/' },
           { text: '📖 notes', link: '/en/notes/' },
           { text: '💡 ideas', link: '/en/ideas/' },
+          { text: '🙋 about', link: '/en/about' },
           { text: '🐙 GitHub', link: 'https://github.com/Jessica939' }
         ],
         socialLinks: [
@@ -48,13 +49,13 @@ export default defineConfig({
       }
     }
   },
-  
+
   markdown: {
     config: (md) => {
       md.use(mathjax3)
     }
   },
-  
+
   head: [
     ['link', { rel: 'icon', type: 'image/png', href: '/logo.png' }]
   ]
