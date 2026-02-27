@@ -24,4 +24,9 @@ Deep learning notes on Transformer architecture, attention mechanisms, and relat
 <div class="card-meta">Mixture of Experts: Evolution and Engineering Challenges from 1991 to 2024</div>
 </a>
 
+<a href="/notes/Transformer/Difussion_and_DiT/note" class="card">
+<div class="card-title">🎨 Diffusion and DiT</div>
+<div class="card-meta">Deep dive into Diffusion models, U-Net, and Diffusion Transformer</div>
+</a>
+
 </div>

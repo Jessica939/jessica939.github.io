@@ -32,4 +32,10 @@ Transformer架构、注意力机制及相关数学原理的深度学习笔记。
 <div class="card-meta">2026-02-27</div>
 </a>
 
+<a href="/notes/Transformer/Difussion_and_DiT/note" class="card">
+<div class="card-title">🎨 Diffusion and DiT</div>
+<div class="card-desc">扩散模型、U-Net与Diffusion Transformer详解</div>
+<div class="card-meta">2026-02-27</div>
+</a>
+
 </div>
