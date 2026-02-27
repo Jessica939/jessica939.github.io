@@ -65,7 +65,7 @@
   - 之前的GPipe是每个GPU负责连续的几层，而现在每个GPU负责不连续的几层，比如GPU1负责1,2,9,10，GPU2负责3,4,11,12
   ![alt text](image-7.png)
 ## Mixture-of-Experts (MoE)
-可以参考[A Brief Introduction Of MoE](../MoE/MoE.md)中有更详细的介绍
+可以参考[A Brief Introduction Of MoE](../../Transformer/MoE/MoE.md)中有更详细的介绍
 - **Mixture-of-Experts (MoE)**
   - 使用门控机制，连接多个专家，决定哪几个专家工作
     ![alt text](image-8.png)

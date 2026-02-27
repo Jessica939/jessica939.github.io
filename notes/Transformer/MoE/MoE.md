@@ -2,7 +2,7 @@
 date: 2026-02-27
 ---
 # A Brief Introduction Of MoE
-这是对[How to Train Really Large Models on Many GPUs?](../How_to_Train_Really_Large_Models_on_Many_GPUs/notes.md#mixture-of-experts-moe)中MoE章节的补充
+这是对[How to Train Really Large Models on Many GPUs?](../../AIInfra/How_to_Train_Really_Large_Models_on_Many_GPUs/notes.md#mixture-of-experts-moe)中MoE章节的补充
 
 在大模型（LLM）遵循Scaling Law（缩放定律）不断攀升参数规模的背景下，计算成本与显存墙（Memory Wall）成为制约AGI发展的物理瓶颈。混合专家模型（Mixture of Experts, MoE）通过条件计算（Conditional Computation）实现了模型容量（Capacity）与推理计算量（FLOPs）的解耦，成为当前万亿参数模型的主流架构。
 
