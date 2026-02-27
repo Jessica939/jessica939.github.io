@@ -1,3 +1,6 @@
+---
+date: 2026-02-26
+---
 # Large Transformer Model Inference Optimization
 这篇是lilian weng的博客阅读笔记https://lilianweng.github.io/posts/2023-01-10-inference-optimization/.
 - 对于大模型推理，为什么如此困难？主要有两个原因

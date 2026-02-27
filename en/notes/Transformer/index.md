@@ -19,4 +19,9 @@ Deep learning notes on Transformer architecture, attention mechanisms, and relat
 <div class="card-meta">Deep understanding of Softmax function principles and applications</div>
 </a>
 
+<a href="/notes/Transformer/MoE/MoE" class="card">
+<div class="card-title">🌀 MoE</div>
+<div class="card-meta">Mixture of Experts: Evolution and Engineering Challenges from 1991 to 2024</div>
+</a>
+
 </div>

@@ -1,3 +1,6 @@
+---
+date: 2026-02-26
+---
 # A Brief Introduction of Softmax and Flash Attention
 在 AI Infra 里，Softmax 和 Flash Attention 的优化，本质上就是一个**如何用数学公式的等价变形，来欺骗硬件、减少物理内存读写**的故事。
 

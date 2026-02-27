@@ -8,7 +8,7 @@ lastUpdated: false
 
 <div class="card-grid">
 
-<a href="/notes/AIInfra/How_to_Train_Really_Large_Models_on_Many_GPUs/reading%20notes" class="card">
+<a href="/notes/AIInfra/How_to_Train_Really_Large_Models_on_Many_GPUs/notes" class="card">
 <div class="card-title">🚀 How to Train Really Large Models on Many GPUs</div>
 <div class="card-desc">深入学习大规模模型分布式训练方法</div>
 <div class="card-meta">2026-02-11</div>

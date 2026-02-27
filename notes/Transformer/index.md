@@ -26,4 +26,10 @@ Transformer架构、注意力机制及相关数学原理的深度学习笔记。
 <div class="card-meta">2026-02-26</div>
 </a>
 
+<a href="/notes/Transformer/MoE/MoE" class="card">
+<div class="card-title">🌀 MoE</div>
+<div class="card-desc">混合专家模型：从1991到2024的演进与工程挑战</div>
+<div class="card-meta">2026-02-27</div>
+</a>
+
 </div>

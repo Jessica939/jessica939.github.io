@@ -1,3 +1,6 @@
+---
+date: 2026-02-26
+---
 # From MHA to MLA
 MLA在论文[DeepSeek-V2: A Strong, Economical, and Efficient
 Mixture-of-Experts Language Model](https://arxiv.org/pdf/2405.04434)中被首次提出

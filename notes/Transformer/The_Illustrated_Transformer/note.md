@@ -1,3 +1,6 @@
+---
+date: 2026-02-26
+---
 # The Illustrated Transformer
 这篇是博客阅读笔记https://jalammar.github.io/illustrated-transformer/
 Transformer模型最开始在[Attention is All You Need](https://arxiv.org/abs/1706.03762)中被提出。
