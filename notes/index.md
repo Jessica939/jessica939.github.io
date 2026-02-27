@@ -14,8 +14,13 @@ lastUpdated: false
 </a>
 
 <a href="/notes/Transformer/" class="card">
-<div class="card-title">🔮 Transformer基础</div>
-<div class="card-meta">Transformer架构、注意力机制及数学原理</div>
+<div class="card-title">🔮 深度学习架构</div>
+<div class="card-meta">Transformer、注意力机制、MoE、扩散模型等</div>
+</a>
+
+<a href="/notes/leetcode/leetcode" class="card">
+<div class="card-title">💻 LeetCode</div>
+<div class="card-meta">Hot 100 刷题笔记</div>
 </a>
 
 </div>

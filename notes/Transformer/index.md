@@ -2,9 +2,9 @@
 lastUpdated: false
 ---
 
-# Transformer基础
+# 深度学习架构
 
-Transformer架构、注意力机制及相关数学原理的深度学习笔记。
+Transformer架构、注意力机制、混合专家模型、扩散模型等深度学习核心架构笔记。
 
 <div class="card-grid">
 
